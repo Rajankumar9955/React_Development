@@ -1,0 +1,27 @@
+{
+  "books": [
+    {
+      "id": "6eb9",
+      "bookid": "120",
+      "bookname": "hindi",
+      "author": "vivekanand",
+      "edition": "4th",
+      "status": "unavailable"
+    },
+    {
+      "id": "017a",
+      "bookid": "dhrsar",
+      "bookname": "english",
+      "author": "william ",
+      "edition": "10ht"
+    },
+    {
+      "id": "58e5",
+      "bookid": "dhrsar",
+      "bookname": "mathematics",
+      "author": "jr jobert",
+      "edition": "10ht",
+      "status": "unavailable"
+    }
+  ]
+}
