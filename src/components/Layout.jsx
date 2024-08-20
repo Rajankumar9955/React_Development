@@ -22,7 +22,7 @@ const Layout=()=>{
         <Container >
          <Navbar expand="lg" className="bg-body-black" style={box1}>
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#">Books Here!</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

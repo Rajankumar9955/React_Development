@@ -115,11 +115,11 @@ const Search=()=>{
         <Table striped bordered hover>
       <thead>
         <tr>
-          <th>ROLLNO:</th>
-          <th>Name</th>
-          <th>CITY</th>
-          <th>FEES</th>
-          <th>FEES</th>
+          <th>Book ID</th>
+          <th>Book Name</th>
+          <th>Author</th>
+          <th>Edition</th>
+          <th>Status</th>
 
         </tr>
       </thead>

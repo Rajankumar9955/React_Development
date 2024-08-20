@@ -7,10 +7,10 @@ import { useParams } from "react-router-dom";
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 const EditData=()=>{
-    const {id}=useParams();
+    const {myid}=useParams();
     const [myData,setMydata]=useState({});
     const loadData=()=>{
-        let url=`http://localhost:3000/books/${id}`;
+        let url=`http://localhost:3000/books/${myid}`;
         axios.get(url).then((res)=>{
             setMydata(res.data);
         })
@@ -24,7 +24,7 @@ const EditData=()=>{
         setMydata(values=>({...values,[name]:value}))
     }
     const handleSubmit=()=>{
-        let url=`http://localhost:3000/books/${id}`;
+        let url=`http://localhost:3000/books/${myid}`;
         console.log(myData);
         axios.put(url,myData).then((res)=>{
             alert("Data updated")

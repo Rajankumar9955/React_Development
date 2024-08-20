@@ -36,7 +36,7 @@ const Display=()=>{
         <div style={{margin:"auto",marginTop:"10px"}}>
             <div style={{width:"99%",margin:"auto"}}>
                   <div style={{width:"50%",margin:"auto"}}>
-                    <h1>Welcome To Display section</h1>
+                    <h1 style={{marginTop:"30px"}}>Welcome To Display section</h1>
                   </div>
             </div>
         </div>
