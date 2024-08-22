@@ -14,7 +14,7 @@ const Display=()=>{
     }
     useEffect(()=>{
         loadData()
-    },[])
+    },[])   
     const ans=mydata.map((key)=>{
         return(
             <>
@@ -29,7 +29,6 @@ const Display=()=>{
             </>
         )
     })
-
     return(
         <>
          <Container>

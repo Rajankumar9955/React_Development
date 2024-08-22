@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap"
 import { useParams } from "react-router-dom";
+import { message } from "antd";
 
 
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
@@ -27,7 +28,7 @@ const EditData=()=>{
         let url=`http://localhost:3000/books/${myid}`;
         console.log(myData);
         axios.put(url,myData).then((res)=>{
-            alert("Data updated")
+            message.success("Data updated")
         })
     }
     return(
